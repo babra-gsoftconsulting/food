@@ -15,7 +15,7 @@ export class Restaurant {
   menu: Array<{ name: string; description: string; price: number }>;
 
   @Prop({ type: Types.ObjectId, required: true })
-  ownerId: Types.ObjectId;
+  ownerId: string;
 }
 
 export const RestaurantSchema = SchemaFactory.createForClass(Restaurant);

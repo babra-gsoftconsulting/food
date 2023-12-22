@@ -12,7 +12,6 @@ import {
 import { UserService } from '../user/user.service';
 import { SignUpDto } from './dtos/signup.dto';
 import { AuthService } from 'src/auth/auth.service';
-import { AuthGuard } from '@nestjs/passport';
 import { SignInDto } from './dtos/signin.dto';
 import { localAuthGuard } from 'src/common/guards/local.auth.guard';
 import { ForgotPasswordDto } from './dtos/forgot.password.dto';

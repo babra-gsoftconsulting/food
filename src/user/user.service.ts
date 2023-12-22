@@ -3,7 +3,6 @@ import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { User } from './models/user.model';
 import { hash } from 'bcryptjs';
-import { UserInterface } from './interface/user.interface'
 
 @Injectable()
 export class UserService {
